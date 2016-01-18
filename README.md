@@ -14,10 +14,18 @@ You can simply convert a CSV File to a XML File. (without DocBuilder)
 ```
 //CSV File: Johannes, Christler; Benjamin, Hackstock;
 
+String[][] csvToArray(String s){
+  ...
+}
 
-ArrayList<Integer> list = prime(20);
+// The Array will look like that: a[0][0] = Johannes
+                                  a[1][1] = Hackstock
 
-//Prime Numbers = [0, 1, 2, 3, 5, 7, 11, 13, 17, 19]
+void arrayToXML(String [][] array){
+  ...
+}
+
+//XML = <Perosn><Vorname>Johanns</Vorname><Nachn...
 ```
 
 Copyright Christler Johannes, 2016
